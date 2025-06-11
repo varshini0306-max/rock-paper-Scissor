@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Rock Paper Scissor</h1>
+    <form>
+                <input type="radio" name="rps" id="Rock-Rock">
+                <input type="radio" name="rps" id="Rock-Paper">
+                <input type="radio" name="rps" id="Rock-Scissor">
+                <input type="radio" name="rps" id="Paper-Rock">
+                <input type="radio" name="rps" id="Paper-Paper">
+                <input type="radio" name="rps" id="Paper-Scissor">
+                <input type="radio" name="rps" id="Scissor-Rock">
+                <input type="radio" name="rps" id="Scissor-Paper">
+                <input type="radio" name="rps" id="Scissor-Scissor">
+        
+            <div id="game">
+                <div>
+                    <h2>You</h2>
+                    <div id="your-choice"></div>
+                </div>
+                <div>
+                    vs
+                </div>
+                <div>
+                    <h2>Comp</h2>
+                    <div id="comp-choice"></div>
+                </div>
+            </div>
+            <p><b>Pick One</b></p>
+            <div id="choice">
+                
+                <div id="hand-size">
+                <label for="Rock-Rock" id="hands">✊</label>
+                <label for="Rock-Paper" id="hands">✊</label>
+                <label for="Rock-Scissor" id="hands">✊</label>
+                </div>
+                <div id="hand-size">
+                <label for="Paper-Rock" id="hands">🖐</label>
+                <label for="Paper-Paper" id="hands">🖐</label>
+                <label for="Paper-Scissor" id="hands">🖐</label>
+                </div>
+                <div id="hand-size">
+                <label for="Scissor-Rock" id="hands">✌️</label>
+                <label for="Scissor-Paper" id="hands">✌️</label>
+                <label for="Scissor-Scissor" id="hands">✌️</label>
+                </div>
+                
+            </div>
+            <div id="result"></div>
+            <button type="reset">Play Again</button>
+
+    </form>
+</body>
+</html>
